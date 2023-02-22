@@ -16,7 +16,7 @@ body {
     main {
         font-family: 'Fredoka One';
         background-color: #8990a2;
-        height: 1400px;
+        height: auto;
     }
 
     .img_nav {
@@ -89,7 +89,7 @@ body {
     }
 
     footer {
-        margin-top: 0px;
+        margin-top: 40px;
         background-color: #666f88;
         padding: 10px;
         color: white;
