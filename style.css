@@ -1,0 +1,955 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
+
+body {
+    background-color: #8990a2;
+    height: 100%;
+}
+
+@media (max-width:767px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    main {
+        font-family: 'Fredoka One';
+        background-color: #8990a2;
+        height: 1400px;
+    }
+
+    .img_nav {
+        width: 90px;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        background-color: #9caea9;
+        padding-bottom: 110px;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #9caea9;
+        font-family: 'Montserrat', bold;
+        font-size: large;
+        width: 100%;
+        display: inline-flex;
+        list-style-type: none;
+        margin-block: auto;
+    }
+
+    li {
+        margin-block: auto;
+        margin-left: 20px;
+        font-family: 'Montserrat', bold;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        font-size: 110%;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    .nav-link {
+        font-family: 'Fredoka One', bold;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .texto_index {
+        font-family: 'Fredoka One', bold;
+        margin: 30px;
+        width: auto;
+    }
+
+    .foto_inicio {
+        width: 80%;
+        margin: 40px 10% 40px 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .link_contacto_footer {
+        display: none;
+    }
+
+    footer {
+        margin-top: 0px;
+        background-color: #666f88;
+        padding: 10px;
+        color: white;
+        font-family: 'Fredoka One';
+        text-shadow: 2px 2px black;
+    }
+
+    h4 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 15px;
+        padding-top: 20px;
+        font-family: 'Fredoka One';
+    }
+
+    .productos_entero {
+        display: flex;
+        font-family: 'Fredoka One';
+    }
+
+    .div_main_productos {
+        display: inline-flex;
+        margin-top: 100px;
+    }
+
+    .descripcion_producto {
+        width: 500px;
+        font-size: 15px;
+    }
+
+    .div_main_productos2 {
+        display: inline-flex;
+        margin-top: 100px;
+    }
+
+    .div_main_productos3 {
+        display: inline-flex;
+        margin-top: 100px;
+    }
+
+    .div_main_productos4 {
+        display: inline-flex;
+        margin-top: 100px;
+    }
+
+    .imagen_producto {
+        margin-top: 80px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    .foto_descuento {
+        width: 15px;
+        margin-left: 10px;
+    }
+
+    .columna2 {
+        display: none;
+    }
+
+    .titulo_sobreNosotros_main {
+        font-family: 'Fredoka One';
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .logo_sobre_nosotros {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contenido_sobre_nosotros {
+        font-family: 'Fredoka One';
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .titulo_nuestro_personal {
+        font-family: 'Fredoka One';
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imagenes_personal {
+        margin-top: 40px;
+    }
+
+    .foto_personal1 {
+        margin-left: 60px;
+    }
+
+    .foto_personal2 {
+        margin-left: 60px;
+    }
+
+    .foto_personal3 {
+        margin-left: 60px;
+    }
+
+    .fotos_lista_contacto {
+        width: 20px;
+    }
+
+    .titulo_lista_contacto {
+        margin-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .lista_contacto {
+        list-style-type: none;
+    }
+
+    .fotos_lista_contacto {
+        margin-right: 10px;
+    }
+
+    .elemento_lista_contacto {
+        font-family: 'Fredoka One';
+        margin-top: 10px;
+    }
+
+    iframe {
+        width: 300px;
+        height: 300px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+
+    h3 {
+        margin-left: 110px;
+    }
+
+    .info_direcciones {
+        font-family: 'Fredoka One';
+        width: 300px;
+    }
+
+    .direccion_bsas {
+        display: flex;
+        margin-bottom: 60px;
+    }
+
+    .texto_comoTrabajamos {
+        font-family: 'Fredoka One';
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+    }
+
+    .comoTrabajamos_arriba_costado {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .imagen_trabajo {
+        margin-right: 40px;
+        margin-top: 60px;
+    }
+
+    .comoTrabajamos_abajo {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .Imagen_comoTrabajamos2 {
+        margin-right: 60px;
+    }
+
+    .div_main_producto_agregado {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+    main {
+        font-family: 'Fredoka One';
+        background-color: #8990a2;
+        height: 1400px;
+    }
+ 
+    .img_nav {
+        width: 90px;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        background-color: #9caea9;
+        padding-bottom: 110px;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #9caea9;
+        font-family: 'Montserrat', bold;
+        font-size: large;
+        width: 100%;
+        display: inline-flex;
+        list-style-type: none;
+        margin-block: auto;
+    }
+
+    li {
+        margin-block: auto;
+        margin-left: 20px;
+        font-family: 'Montserrat', bold;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        font-size: 110%;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    .nav-link {
+        font-family: 'Fredoka One', bold;
+    }
+
+    nav {
+        width: auto;
+    }
+
+    .foto_inicio {
+        width: 80%;
+        margin: 40px 10% 40px 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto_index {
+        font-family: 'Fredoka One';
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .link_footer {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        display: inline-flex;
+        margin-left: 8px;
+        font-family: 'Fredoka One';
+    }
+
+    .acomodo_footer {
+        display: flex;
+    }
+
+    footer {
+        margin-top: 0px;
+        background-color: #666f88;
+        padding: 10px;
+        color: white;
+        font-family: 'Fredoka One';
+        text-shadow: 2px 2px black;
+    }
+
+    .lista_footer {
+        list-style-type: none;
+        font-family: 'Fredoka One';
+    }
+
+    .foto_descuento {
+        width: 20px;
+    }
+
+    .columna2 {
+        display: none;
+    }
+
+    .columna1 {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 60px;
+    }
+
+    .productos_entero {
+        display: flex;
+        font-family: 'Fredoka One';
+    }
+
+    .div_main_productos {
+        display: inline-flex;
+        margin-top: 40px;
+    }
+
+    .div_main_productos2 {
+        display: inline-flex;
+        margin-top: 60px;
+    }
+
+    .div_main_productos3 {
+        display: inline-flex;
+        margin-top: 60px;
+    }
+
+    .div_main_productos4 {
+        display: inline-flex;
+        margin-top: 60px;
+    }
+
+    .div_main_producto_agregado {
+        display: inline-flex;
+        margin-top: 40px;
+    }
+
+    .titulo_producto {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    .descripcion_producto {
+        margin-left: 40px;
+        font-size: 18px;
+    }
+
+    .btn_comprar {
+        margin-left: 40px;
+        margin-top: 10px;
+        border-radius: 6px;
+    }
+
+    .foto_descuento {
+        margin-left: 12px;
+    }
+
+    .titulo_sobreNosotros_main {
+        font-family: 'Fredoka One';
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .logo_sobre_nosotros {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .contenido_sobre_nosotros {
+        font-family: 'Fredoka One';
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .titulo_nuestro_personal {
+        font-family: 'Fredoka One';
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    .imagenes_personal {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .texto_comoTrabajamos {
+        margin: 60px 40px 40px 60px;
+        font-family: 'Fredoka One';
+    }
+
+    .comoTrabajamos_arriba_costado {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 140px;
+    }
+
+    .imagen_trabajo {
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+
+    .comoTrabajamos_abajo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Imagen_comoTrabajamos2 {
+        margin-right: 120px;
+    }
+
+    .fotos_lista_contacto {
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .elemento_lista_contacto {
+        list-style-type: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: 'Fredoka One';
+    }
+
+    iframe {
+        margin-left: 80px;
+        width: 500px;
+    }
+
+    h3 {
+        margin-left: 250px;
+        margin-top: 40px;
+    }
+
+    .direccion_bsas {
+        display: flex;
+    }
+
+    .info_direcciones {
+        font-family: 'Fredoka One';
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .titulo_lista_contacto {
+        font-family: 'Fredoka One';
+        margin-top: 60px;
+    }
+
+    .lista_contacto {
+        margin-left: 40px;
+    }
+
+    h4 {
+        justify-content: center;
+        font-family: 'Fredoka One';
+        font-size: 20px;
+        margin-left: 15%;
+    }
+
+    .acomodo_h4 {
+        display: flex;
+    }
+}
+@media (min-width:1024px) {
+    .img_nav {
+        width: 90px;
+        height: auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        background-color: #9caea9;
+        padding-bottom: 110px;
+    }
+
+    .navbar {
+        width: 100%;
+        background-color: #9caea9;
+        font-family: 'Montserrat', bold;
+        font-size: large;
+    }
+
+    .navbar {
+        display: inline-flex;
+        list-style-type: none;
+        margin-block: auto;
+    }
+
+    li {
+        margin-block: auto;
+        margin-left: 20px;
+        font-family: 'Montserrat', bold;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        font-size: 110%;
+    }
+
+    a {
+        font-family: 'Fredoka One';
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    nav {
+
+        width: auto;
+    }
+
+    h1 {
+        display: inline-block;
+        font-family: 'Fredoka One';
+        margin-left: 20px;
+        color: white;
+        padding: 10px;
+        text-shadow: 4px 4px black;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        background-color: #9caea9;
+        padding-bottom: 110px;
+    }
+
+    .imagen_index {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+
+    .foto_inicio {
+        width: 80%;
+        margin: 40px 10% 40px 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .texto_index {
+        margin: 40px;
+        font-family: 'Fredoka One';
+
+    }
+
+    .lista_contacto {
+        margin-left: 100px;
+        list-style-type: none;
+        font-family: 'Fredoka One';
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Fredoka One';
+
+    }
+
+    .titulo_sobreNosotros_main {
+        padding-top: 20px;
+        font-family: 'Fredoka One';
+    }
+
+    main {
+        font-family: 'Fredoka One';
+        background-color: #8990a2;
+        height: 1400px;
+    }
+
+    .logo_sobre_nosotros {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .contenido_sobre_nosotros {
+        padding: 20px;
+        font-family: 'Fredoka One';
+    }
+
+    .titulo_nuestro_personal {
+        margin-top: 80px;
+        font-family: 'Fredoka One';
+    }
+
+    .link_contacto_footer {
+        margin-left: 2%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        text-decoration-style: none;
+        font-family: 'Fredoka One';
+    }
+
+    .titulo_contacto_footer {
+        margin: 0px;
+        font-family: 'Fredoka One';
+    }
+
+    .link_footer {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+        display: inline-flex;
+        margin-left: 8px;
+        font-family: 'Fredoka One';
+    }
+
+    footer {
+        margin-top: 0px;
+        background-color: #666f88;
+        padding: 10px;
+        color: white;
+        font-family: 'Fredoka One';
+        text-shadow: 2px 2px black;
+    }
+
+    .lista_footer {
+        list-style-type: none;
+        font-family: 'Fredoka One';
+    }
+
+    .acomodo_footer {
+        display: flex;
+    }
+
+    .titulo_lista_contacto {
+        font-size: 20px;
+        padding-top: 60px;
+        font-family: 'Fredoka One';
+    }
+
+    .elemento_lista_contacto {
+        margin-left: 40px;
+        font-family: 'Fredoka One';
+        margin-top: 15px;
+    }
+    h4 {
+        justify-content: center;
+        font-family: 'Fredoka One';
+        font-size: 20px;
+        margin-left: 15%;
+    }
+
+    .acomodo_h4 {
+        display: flex;
+    }
+
+    .foto_carrito {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+
+    .fotos_lista_contacto {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .acomodo_contacto {
+        margin-top: 10px;
+    }
+
+    h3 {
+        margin-left: 170px;
+        margin-top: 30px;
+        font-family: 'Fredoka One';
+    }
+
+    iframe {
+        height: 200px;
+        width: 200px;
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+
+    .direccion_bsas {
+        display: flex;
+        font-family: 'Fredoka One';
+    }
+
+    .info_direcciones {
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-family: 'Fredoka One';
+    }
+
+    .numero_local_Mza {
+        display: inline-flex;
+        font-family: 'Fredoka One';
+    }
+
+    .imagenes_personal {
+        display: inline-flex;
+        display: flex;
+        margin-top: 200px;
+        margin-left: 100px;
+        margin-right: 400px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    b {
+        font-family: 'Fredoka One';
+    }
+
+    .div_main_productos {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-left: 10px;
+
+    }
+
+    .div_main_productos2 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-left: 10px;
+    }
+
+    .div_main_productos3 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-left: 10px;
+    }
+
+    .div_main_productos4 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-left: 10px;
+    }
+
+    .div_main_productos5 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-right: 10px;
+    }
+
+    .div_main_productos6 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-right: 10px;
+    }
+
+    .div_main_productos7 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-right: 10px;
+    }
+
+    .div_main_productos8 {
+        display: flex;
+        font-family: 'Fredoka One';
+        padding-top: 100px;
+        padding-right: 10px;
+    }
+
+    .imagen_producto {
+        display: inline-block;
+    }
+
+    .btn_comprar {
+        display: inline-block;
+        margin-left: 20px;
+        font-family: 'Fredoka One';
+        background-color: white;
+        border-radius: 5px;
+        transition: 60s;
+
+    }
+
+    input[type="button"]:hover {
+        cursor: pointer;
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .descripcion_producto {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        font-family: 'Fredoka One';
+    }
+
+    .columna1 {
+        position: absolute;
+    }
+
+    .productos_entero {
+        display: flex;
+    }
+
+    .columna1 {
+        display: inline-block;
+        padding-left: 40px;
+    }
+
+    .columna2 {
+        display: inline-block;
+        margin-left: 600px;
+    }
+
+    .titulo_producto {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-family: 'Fredoka One';
+    }
+
+    .foto_descuento {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+    }
+
+    .comoTrabajamos_arriba {
+        display: inline-flex;
+        margin-top: 80px;
+    }
+
+    .comoTrabajamos_arriba_costado {
+        display: inline-block;
+    }
+
+    video {
+        margin-top: 80px;
+        margin-right: 40px;
+    }
+
+    .texto_comoTrabajamos {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .comoTrabajamos_abajo {
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+
+    .Imagen_comoTrabajamos2 {
+        margin-left: 200px;
+    }
+
+    .Imagen_comoTrabajamos3 {
+        margin-left: 300px;
+    }
+
+    .div_main_producto_agregado {
+        display: none;
+    }
+}
