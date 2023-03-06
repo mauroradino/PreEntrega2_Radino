@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap');
-
-body {
-    background-color: #8990a2;
-    height: 100%;
+.imagen_trabajo{
+    width: 300px;
 }
-
 @media (max-width:767px) {
 
     * {
@@ -12,10 +9,11 @@ body {
         padding: 0px;
         box-sizing: border-box;
     }
-
+      
     main {
         font-family: 'Fredoka One';
-        background-color: #8990a2;
+        background-image: linear-gradient(to top, #666f88, #acb5cc );
+        height: 1400px;
         height: auto;
     }
 
@@ -28,13 +26,13 @@ body {
         display: flex;
         justify-content: center;
         height: 70px;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         padding-bottom: 110px;
     }
 
     .navbar {
         width: 100%;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         font-family: 'Montserrat', bold;
         font-size: large;
         width: 100%;
@@ -83,18 +81,12 @@ body {
         display: flex;
         justify-content: center;
     }
-
-    .link_contacto_footer {
-        display: none;
-    }
-
     footer {
-        margin-top: 40px;
+        padding-top: 40px;
         background-color: #666f88;
-        padding: 10px;
         color: white;
         font-family: 'Fredoka One';
-        text-shadow: 2px 2px black;
+        width: 100%;
     }
 
     h4 {
@@ -196,7 +188,7 @@ body {
     }
 
     .titulo_lista_contacto {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         padding-top: 20px;
     }
 
@@ -221,24 +213,27 @@ body {
     }
 
     h3 {
-        margin-left: 110px;
+        text-align: center;
     }
 
     .info_direcciones {
         font-family: 'Fredoka One';
-        width: 300px;
+        width: auto;
+        text-align: center;
     }
 
     .direccion_bsas {
-        display: flex;
+        display: inline-block;
         margin-bottom: 60px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .texto_comoTrabajamos {
         font-family: 'Fredoka One';
         margin-left: 40px;
         margin-right: 40px;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .comoTrabajamos_arriba_costado {
@@ -247,8 +242,15 @@ body {
         margin-top: 20px;
         margin-bottom: 40px;
     }
-
+    iframe{
+        display: flex;
+        justify-content: center;
+        height: 150px;
+        width: 150px;
+    }
     .imagen_trabajo {
+        width: 2%;
+        height: 4%;
         margin-right: 40px;
         margin-top: 60px;
     }
@@ -266,14 +268,28 @@ body {
     .div_main_producto_agregado {
         display: none;
     }
+    .grid{
+        display: grid;
+        justify-content: center;
+    }
+    .card {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
 }
 
 @media (min-width: 768px) and (max-width:1023px) {
 
     main {
         font-family: 'Fredoka One';
-        background-color: #8990a2;
-        height: 1400px;
+        background-image: linear-gradient(to top, #666f88, #acb5cc );
+        height: auto;
+        padding-bottom: 60px;
     }
  
     .img_nav {
@@ -285,13 +301,13 @@ body {
         display: flex;
         justify-content: center;
         height: 70px;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         padding-bottom: 110px;
     }
 
     .navbar {
         width: 100%;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         font-family: 'Montserrat', bold;
         font-size: large;
         width: 100%;
@@ -340,34 +356,12 @@ body {
         margin-left: 30px;
         margin-right: 30px;
     }
-
-    .link_footer {
-        text-decoration: none;
-        list-style-type: none;
-        color: white;
-        display: inline-flex;
-        margin-left: 8px;
-        font-family: 'Fredoka One';
+footer {
+    margin: 0;
+    background-color: #666f88;
+    color: white;
+    font-family: 'Fredoka One';
     }
-
-    .acomodo_footer {
-        display: flex;
-    }
-
-    footer {
-        margin-top: 0px;
-        background-color: #666f88;
-        padding: 10px;
-        color: white;
-        font-family: 'Fredoka One';
-        text-shadow: 2px 2px black;
-    }
-
-    .lista_footer {
-        list-style-type: none;
-        font-family: 'Fredoka One';
-    }
-
     .foto_descuento {
         width: 20px;
     }
@@ -537,18 +531,24 @@ body {
     }
 
     h4 {
+        text-align: center;
         justify-content: center;
         font-family: 'Fredoka One';
         font-size: 20px;
         margin-left: 15%;
     }
-
-    .acomodo_h4 {
-        display: flex;
+    .card {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
     }
 }
 @media (min-width:1024px) {
-    .img_nav {
+    img .img_nav {
         width: 90px;
         height: auto;
     }
@@ -557,13 +557,13 @@ body {
         display: flex;
         justify-content: center;
         height: 70px;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         padding-bottom: 110px;
     }
 
     .navbar {
         width: 100%;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         font-family: 'Montserrat', bold;
         font-size: large;
     }
@@ -613,7 +613,7 @@ body {
         display: flex;
         justify-content: center;
         height: 70px;
-        background-color: #9caea9;
+        background-color: #acb5cc;
         padding-bottom: 110px;
     }
 
@@ -626,9 +626,8 @@ body {
 
     .foto_inicio {
         width: 80%;
-        margin: 40px 10% 40px 10%;
-        display: flex;
-        justify-content: center;
+        padding-top: 40px;
+        padding-left: 20%;
     }
 
     .texto_index {
@@ -656,10 +655,10 @@ body {
 
     main {
         font-family: 'Fredoka One';
-        background-color: #8990a2;
+        background-image: linear-gradient(to top, #666f88, #acb5cc );
         height: 1400px;
     }
-
+   
     .logo_sobre_nosotros {
         display: flex;
         justify-content: center;
@@ -676,46 +675,23 @@ body {
         font-family: 'Fredoka One';
     }
 
-    .link_contacto_footer {
-        margin-left: 2%;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        text-decoration-style: none;
-        font-family: 'Fredoka One';
-    }
-
     .titulo_contacto_footer {
         margin: 0px;
         font-family: 'Fredoka One';
     }
-
-    .link_footer {
-        text-decoration: none;
-        list-style-type: none;
-        color: white;
-        display: inline-flex;
-        margin-left: 8px;
-        font-family: 'Fredoka One';
-    }
-
+    img .card-img-top{
+    width: auto;
+    height: auto;
+}
+  footer .d-flex{
+    margin: 0;
+}
     footer {
-        margin-top: 0px;
+        margin: 0;
         background-color: #666f88;
-        padding: 10px;
         color: white;
         font-family: 'Fredoka One';
-        text-shadow: 2px 2px black;
     }
-
-    .lista_footer {
-        list-style-type: none;
-        font-family: 'Fredoka One';
-    }
-
-    .acomodo_footer {
-        display: flex;
-    }
-
     .titulo_lista_contacto {
         font-size: 20px;
         padding-top: 60px;
@@ -728,16 +704,14 @@ body {
         margin-top: 15px;
     }
     h4 {
+        text-align: center;
         justify-content: center;
         font-family: 'Fredoka One';
         font-size: 20px;
         margin-left: 15%;
     }
 
-    .acomodo_h4 {
-        display: flex;
-    }
-
+   
     .foto_carrito {
         width: 20px;
         height: 20px;
@@ -792,10 +766,10 @@ body {
         display: inline-flex;
         display: flex;
         margin-top: 200px;
-        margin-left: 100px;
-        margin-right: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
         justify-content: space-between;
-        align-items: center;
+        align-content: center;
     }
 
     b {
@@ -937,19 +911,115 @@ body {
     }
 
     .comoTrabajamos_abajo {
+        display: flex;
         margin-left: 40px;
         margin-top: 80px;
     }
 
     .Imagen_comoTrabajamos2 {
-        margin-left: 200px;
+        width: 600px;
+        margin-left: 100px;
     }
 
     .Imagen_comoTrabajamos3 {
-        margin-left: 300px;
+        width: 600px;
+        margin-left: 100px;
     }
 
     .div_main_producto_agregado {
         display: none;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        padding-top: 60px;
+        grid-gap: 20px;
+        grid-row-gap: 30px;
+    }
+    .producto1{
+        grid-row: 1;
+        grid-column: 1;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto2{
+        grid-row: 1;
+        grid-column: 2;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto3{
+        grid-row: 1;
+        grid-column: 3;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto4{
+        grid-row: 2;
+        grid-column: 1;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto5{
+        grid-row: 2;
+        grid-column: 2;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto6{
+        grid-row: 2;
+        grid-column: 3;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto7{
+        grid-row: 3;
+        grid-column: 1;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto8{
+        grid-row: 3;
+        grid-column: 2;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    .producto9{
+        grid-row: 3;
+        grid-column: 3;
+        width: 100%;
+        background-color: #666f88;
+        color: white;
+        text-shadow: 1px 1px black;
+    }
+    @media (max-width: 1024px){
+        .grid{
+                display: grid;
+                grid-template-columns: 25%;
+                grid-template-rows: auto auto auto auto auto auto auto auto auto;
+                justify-content: center;
+                padding-top: 60px;
+                grid-gap: 20px;
+                grid-row-gap: 30px;
+                grid-area: 30%;
+        }
     }
 }
