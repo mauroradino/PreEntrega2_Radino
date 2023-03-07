@@ -192,6 +192,7 @@
 
     .titulo_lista_contacto {
         margin-bottom: 20px;
+        padding-left: 0px;
         padding-top: 20px;
     }
 
@@ -207,14 +208,6 @@
         font-family: 'Fredoka One';
         margin-top: 10px;
     }
-
-    iframe {
-        width: 300px;
-        height: 300px;
-        margin-left: 40px;
-        margin-right: 20px;
-    }
-
     h3 {
         text-align: center;
     }
@@ -223,10 +216,14 @@
         font-family: 'Fredoka One';
         width: auto;
         text-align: center;
+        margin-top: 30px;
+        padding-bottom: 40px;
     }
 
     .direccion_bsas {
+        display: flex;
         display: inline-block;
+        height: 400px;
         margin-bottom: 60px;
         margin-left: 10%;
         margin-right: 10%;
@@ -248,14 +245,19 @@
     iframe{
         display: flex;
         justify-content: center;
-        height: 150px;
-        width: 150px;
+        height: 60%;
+        width: 80%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10px;
+        margin: 0 auto;
     }
     .imagen_trabajo {
-        width: 40%;
-        height: 4%;
+        width: 60%;
+        height: 6%;
         margin-right: 40px;
         margin-top: 60px;
+        padding-bottom: 80px;
     }
 
     .comoTrabajamos_abajo {
@@ -353,7 +355,7 @@
     .foto_inicio {
         width: 80%;
         margin: 0 10% 40px 10%;
-        padding-top: 40px;
+        padding-top: 60;
         display: flex;
         justify-content: center;
     }
@@ -530,7 +532,7 @@ footer {
 
     .titulo_lista_contacto {
         font-family: 'Fredoka One';
-        margin-top: 60px;
+        padding-top: 60px;
     }
 
     .lista_contacto {
@@ -749,7 +751,6 @@ footer {
     }
 
     iframe {
-        height: auto;
         width: 30%;
         margin-left: 10%;
         margin-top: 10px;
@@ -758,6 +759,7 @@ footer {
     .direccion_bsas {
         display: flex;
         font-family: 'Fredoka One';
+        height: auto;
     }
 
     .info_direcciones {
