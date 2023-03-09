@@ -1,12 +1,6 @@
-@import "../scss/color.scss";
-@import "../scss/fonts.scss";
-@import "../scss/vistas.scss";
-$mobile: (max-width:767px);
-$tablet: (min-width:768px) and (max-width:1023px);
-$escritorio: (min-width:1024px);
+@import "../scss/variables.scss";
 @import "https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@1,300&family=Unbounded:wght@200&display=swap";
-
-@if (media $mobile){
+@media (max-width:767px){
 	* {
 		margin: 0px;
 		padding: 0px;
@@ -45,7 +39,7 @@ $escritorio: (min-width:1024px);
 		font-family: $font-family_2;
 		&:hover {
 			text-decoration: underline;
-			font-size: 110%;
+			font-size: 110%; 
 		}
 	}
 	a {
@@ -256,7 +250,7 @@ $escritorio: (min-width:1024px);
         margin-left: -30px;
     }
 }
-@if (media $tablet){
+@media (min-width: 768px) and (max-width:1023px) {
 	main {
 		font-family: $font-family_1;
 		background-image: linear-gradient(to top, #666f88, #acb5cc);
@@ -479,7 +473,7 @@ $escritorio: (min-width:1024px);
 		text-shadow: 1px 1px black;
 	}
 }
-@if (media $escritorio){
+@media (min-width:1023px) {
 	img {
 		.img_nav {
 			width: 90px;
